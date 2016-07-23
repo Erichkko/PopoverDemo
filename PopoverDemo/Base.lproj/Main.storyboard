@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-RU-Dht">
-                                <rect key="frame" x="396" y="303" width="34" height="30"/>
+                                <rect key="frame" x="319" y="295" width="142" height="101"/>
                                 <color key="backgroundColor" red="0.57263034608497798" green="1" blue="0.36523060311689115" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="IOS8"/>
                                 <connections>
@@ -64,6 +64,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="warningBtn" destination="SMn-RU-Dht" id="OGl-js-dNp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ub-41-ZXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
