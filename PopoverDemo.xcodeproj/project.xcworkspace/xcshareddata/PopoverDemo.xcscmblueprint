@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A32A1AB9AFC3BE85BD49DB245DA4543276AC1B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : 0,
+    "1A32A1AB9AFC3BE85BD49DB245DA4543276AC1B1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D03DE657-92DF-45E5-8B52-01AA446AFB06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : "",
+    "1A32A1AB9AFC3BE85BD49DB245DA4543276AC1B1" : "PopoverDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PopoverDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PopoverDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/PopoverDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A32A1AB9AFC3BE85BD49DB245DA4543276AC1B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/PinterestLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65D6DB69FC84550EA0B40BE6508B97475483A876"
+    }
+  ]
+}

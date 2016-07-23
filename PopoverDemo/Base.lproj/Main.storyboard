@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gHa-Y0-hay">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="Cei-7u-gF3">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <navigationController id="gHa-Y0-hay" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5EN-e6-AfU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Fey-0B-vtx" kind="relationship" relationship="rootViewController" id="C2O-Gr-H80"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4N-yK-axO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-545" y="147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fcD-HE-OBv">
+            <objects>
+                <viewController id="Fey-0B-vtx" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="UId-IC-kuJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="78j-xh-4PA"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ylT-Lg-GHO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7l-aF-P0E">
+                                <rect key="frame" x="139" y="258" width="75" height="108"/>
+                                <color key="backgroundColor" red="0.88718964519520782" green="0.244642687900539" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="颜色选择器"/>
+                                <connections>
+                                    <action selector="selectColor:" destination="Fey-0B-vtx" eventType="touchUpInside" id="7YX-d1-nrH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-RU-Dht">
+                                <rect key="frame" x="396" y="303" width="34" height="30"/>
+                                <color key="backgroundColor" red="0.57263034608497798" green="1" blue="0.36523060311689115" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="IOS8"/>
+                                <connections>
+                                    <action selector="ios8Click:" destination="Fey-0B-vtx" eventType="touchUpInside" id="wGo-zx-29t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bH3-c6-SAf">
+                        <barButtonItem key="leftBarButtonItem" title="Test" id="Y49-Pg-Pk8">
+                            <connections>
+                                <action selector="testClick:" destination="Fey-0B-vtx" id="mZx-4Q-sjh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="控制器" id="cPf-ZF-Vhh">
+                            <connections>
+                                <action selector="controllerClick:" destination="Fey-0B-vtx" id="VnU-5m-fdo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ub-41-ZXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="161" y="142"/>
         </scene>
     </scenes>
 </document>
